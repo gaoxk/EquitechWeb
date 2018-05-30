@@ -11,6 +11,7 @@ h1{
 }
 
 a {
+    color: inherit !important;
     text-decoration: none !important;
 }
 
@@ -155,8 +156,26 @@ p, li {
     transform: translate(-50%, -50%);
 }
 
-.signupForm {
-    color: blue;
+.contact input {
+    border-radius: 10px;
+    border-color: white;
+    background-color: transparent;
+    text-align: center;
+    width: 50%;
+    transform: translateX(50%);
+    height: 3em;
+    color: white;
+}
+
+.contact input::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+.contact input:focus {
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
 }
 
 /* Footer */
