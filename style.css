@@ -10,13 +10,35 @@ h1{
     transform: uppercase;
 }
 
-h3, h4, a {
+a {
     text-decoration: none !important;
 }
 
-
 p, li {
     font-size: 1.25em;
+}
+
+.break {
+   width: 10%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   font-size: 0.1em;
+}
+
+/* Nav bar */
+.navbar {
+  margin-left: 4%;
+  margin-top: 3%;
+  overflow: hidden;
+}
+
+.navbar img {
+  height: 2.75em;
+  margin-top: -25% !important;
+}
+
+.navbar a {
+  color: #5e507e !important;
 }
 
 /* Hero */
@@ -27,25 +49,71 @@ p, li {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 .hero-text {
-    padding: 0 5%;
+    margin: 0 4%;
+    padding-bottom: 10%;
     text-align: left;
     position: absolute;
-    color: #5e507e;
-    top: 45%;
+    top: 42%;
+    width: 50%;
+    color: #404041;
 }
+
+.hero h1 {
+    color: #5e507e;
+    font-size: 4.5em;
+}
+
+.hero .break {
+    background-color: #5e507e;
+}
+
+.hero .btn {
+    margin-top: 2%;
+    transition: background .25s;
+    background-color: transparent;
+    border: 1px solid #5e507e;
+    border-radius: 100px;
+    color: #5e507e;
+}
+
+.hero .btn:hover {
+    transition: background .25s;
+    background-color: #5e507e;
+    color: white;
+}
+
+/* Projects */
+.project1 {
+    background-color: #cc98c4;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project1 .break {
+  background-color: white;
+}
+
+.project1 .row {
+  margin-top: 25%;
+}
+
+.project-text {
+    padding: 0 5%;
+    text-align: left;
+    color: white;
+}
+
 
 /* Contact */
 .contact {
     background-color: #6dc1dd;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 .contact-text {
     padding: 0 5%;
@@ -65,7 +133,7 @@ p, li {
 #footer {
     background-color: white;
     text-align: center;
-    padding: 0 5%;
+    margin: 2%;
 }
 
 .leftSide {
@@ -74,10 +142,6 @@ p, li {
 
 .rightSide {
     text-align: right;
-}
-
-.rightSide h3 {
-  padding-bottom: 7%;
 }
 
 .logo{
