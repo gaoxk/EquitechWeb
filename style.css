@@ -86,27 +86,57 @@ p, li {
 }
 
 /* Projects */
-.project1 {
-    background-color: #cc98c4;
+.project {
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.project1 .break {
+.project .break {
   background-color: white;
 }
 
-.project1 .row {
+.project .row {
+  transform: translateY(50%);
+}
+
+.project img {
+  position: absolute;
+  border-radius: 2%;
+  z-index: -1;
+}
+
+.project #img1 {
+  transform: translate(-50%, -40%);
+  max-width: 65%;
+}
+
+.project #top-img {
+  transform: translate(15%, -20%);
+  z-index: 1;
+  max-width: 75%;
   margin-top: 25%;
 }
 
+.project #img2 {
+  transform: translate(-50%, -15%);
+  max-width: 40%;
+  margin-top: 50%;
+  margin-right: 25%;
+}
+
 .project-text {
-    padding: 0 5%;
     text-align: left;
     color: white;
 }
 
+.project-one {
+  background-color: #cc98c4;
+}
+
+.project-two {
+  background-color: #616ab1;
+}
 
 /* Contact */
 .contact {
